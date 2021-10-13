@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "musicplayer",
+  "version": "${version}",
+  "name": "MusicPlayer",
+  "description": "Plays the music disks",
+  "authors": [
+    "Calcilore"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/musicplayer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.Calcilore.MusicPlayer.MusicPlayer"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "musicplayer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.1",
+    "fabric": "*"
+  }
+}
