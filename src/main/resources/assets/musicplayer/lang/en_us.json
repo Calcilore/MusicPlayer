@@ -1,5 +1,10 @@
 {
   "category.musicplayer.musicplayer": "Music Player",
   "key.musicplayer.playsong": "Play Song",
-  "key.musicplayer.stopsong": "Stop Song"
+  "key.musicplayer.stopsong": "Stop Song",
+  "key.musicplayer.playloop": "Play Song (looped)",
+  "key.musicplayer.playrandomloop": "Play Song (looped random)",
+  "key.musicplayer.getsong": "Get Playing Song",
+  "musicplayer.nothing": "Nothing",
+  "musicplayer.playingsong": "Playing Song: "
 }
